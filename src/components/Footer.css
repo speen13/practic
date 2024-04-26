@@ -1,0 +1,25 @@
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    border: 1px solid wheat;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    background-color: gray;
+    bottom: 0;
+    border-radius: 10px;
+
+}
+
+.foot p {
+    font-size: 1.5rem;
+    color: wheat;
+    transition:all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.foot p:hover {
+    color: white;
+}
