@@ -23,7 +23,7 @@ const css = {
       flex-direction: column;
       align-items: center;
       height: 100%;
-      width: 100vw;
+      width: 98vw;
       background-color: silver;
       color: white;
       font-size: 20px;
