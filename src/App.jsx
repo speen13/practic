@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from "./components/About.jsx";
 import Contacts from "./components/Contacts.jsx";
 import Info from "./components/Info.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 const {Container, Table} = css
@@ -49,7 +50,7 @@ function App() {
           <Route path='about/:id' element={<Info />} />
 
         </Routes>
-
+<Footer />
       </BrowserRouter>
 
 

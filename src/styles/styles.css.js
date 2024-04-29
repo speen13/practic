@@ -24,19 +24,21 @@ const css = {
       align-items: center;
       height: 100%;
       width: 98vw;
-      background-color: silver;
+      background: rgb(2,0,36);
+      background: linear-gradient(207deg, rgba(2,0,36,1) 27%, rgba(55,70,55,0.7861738445378151) 39%, rgba(0,212,255,1) 65%);
+      
       color: white;
       font-size: 20px;
       font-family: 'Courier New', Courier, monospace;
       font-weight: bold;
       text-align: center;
       padding: 10px;
-      margin-top: 130px;
+      margin-top: 110px;
       border-radius: 10px;
       box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
       border: 1px solid white;
       cursor: pointer;
-      margin-bottom: 180px;
+      margin-bottom: 15px;
       
 
 

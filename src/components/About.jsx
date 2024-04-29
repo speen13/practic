@@ -43,6 +43,7 @@ const About = () => {
 <p>{item.title}</p>
         </Link>
       ))}
+
     </Container>
   );
 };

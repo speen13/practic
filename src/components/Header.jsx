@@ -14,15 +14,17 @@ const Header = () => {
 
   return (
     <div className={'header'}>
-<Link className='link' to='/about'>About</Link>
-      <Link  className='link'  to='/contacts'>Contacts</Link>
-      <Link className='link'  to='/'>Home</Link>
+      <h1 className={'logo'}>Step by Step</h1>
+      <Link className='link' to='/about'>About</Link>
+      <Link className='link' to='/contacts'>Contacts</Link>
+      <Link className='link' to='/'>Home</Link>
+
       <div className={'burger'} onClick={handleClick}>
         <span className={iks ? '' : 'line'}></span>
         <span className={iks ? '' : 'line_2'}></span>
         <span className={iks ? '' : 'line_3'}></span>
       </div>
-<Menu iks={iks} setIks={setIks}/>
+      <Menu iks={iks} setIks={setIks}/>
     </div>
   );
 };

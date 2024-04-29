@@ -6,10 +6,11 @@
     height: 420px;
     border: 1px solid black;
     margin-top: 600px;
-    background-color: silver;
+    background-color: lightblue;
     border-radius: 10px;
     transition: all 0.3s linear;
     transform: translateX(-10%);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -22,7 +23,7 @@
     height: 420px;
     border: 1px solid black;
     margin-top: 600px;
-    background-color: silver;
+    background-color: lightblue;
     border-radius: 10px;
     transition: all 0.3s linear;
     transform: translateX(620px);
