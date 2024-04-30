@@ -1,6 +1,6 @@
 .menu {
 
-    margin-left: calc(50% - 200px);
+    /*margin-left: calc(50% - 200px);*/
     position: absolute;
     width: 80%;
     height: 420px;
@@ -9,7 +9,7 @@
     background-color: lightblue;
     border-radius: 10px;
     transition: all 0.3s linear;
-    transform: translateX(-10%);
+    transform: translateX(13%);
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
 
 }
